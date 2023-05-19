@@ -9,6 +9,14 @@ class Person {
   public String showName() {
     return name;
   }
+
+  public void setAge(int a) {
+    age = a;
+  }
+
+  public int showAge() {
+    return age;
+  }
 }
 
 class Hello {
